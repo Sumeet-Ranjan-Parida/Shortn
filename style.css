@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(206, 12%, 95%);
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+header {
+  margin-left: 100px;
+  padding: 30px;
+}
+
+header .title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6c757d;
+}
+
+a:hover {
+  color: rgb(33, 150, 243);
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 100px;
+  padding: 12.5px;
+}
+
+.heading {
+  padding: 70px;
+}
+
+.heading h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+.heading p {
+  text-align: center;
+  color: #6c757d;
+  letter-spacing: 0.1em;
+}
+
+.urlbox {
+  text-align: center;
+}
+
+#urlid {
+  box-sizing: border-box;
+  width: 360px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 18px 18px;
+}
+
+#submit {
+  background-color: dodgerblue;
+  text-align: center;
+  color: white;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  padding: 18px 18px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#output {
+  text-align: center;
+  padding-top: 75px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#p1 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
